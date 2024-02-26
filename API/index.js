@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 
 
 const replicate = new Replicate({
-  auth: process.env.REPLICATE_API_TOKEN || "r8_VjLNoDUDmNgXh3KrDOOcQ1bYJbbJDci2O40V5",
+  auth: process.env.REPLICATE_API_TOKEN || "YOUR_TOKEN_REPLACE",
 });
 
 app.get('/', async (req, res) => {
